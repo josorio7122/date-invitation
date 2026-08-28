@@ -1,0 +1,105 @@
+{
+  "title": "Bolder hand: choose the visual world",
+  "question": "Bolder register. The deal leads with Night Flight Six-Pack; The Fight Poster beats it on both axes. Pick one, or re-roll.",
+  "options": [
+    {
+      "id": "leader-sixpack",
+      "label": "Night Flight Six-Pack",
+      "kicker": "THE ROLL",
+      "lineage": "small aircraft night instrument panel",
+      "thesis": "Preflight for tomorrow night: six calm gauges that all agree, and the master switch is yes.",
+      "palette": ["#0b0c0e", "#1a1c20", "#e8f0e6", "#8dff9a", "#ffb02e", "#ff3b2e"],
+      "materials": ["matte black panel", "luminous dial markings", "radium-green needles"],
+      "viewport": "Two rows of three dials fill the phone: T-minus to dinner counting down, heading pointing at the restaurant, 'how much I want this' pegged at the stop, table for 2, dress code, fuel (hungry). Placard caps under each. A guarded toggle at the bottom: ARM / YES.",
+      "risk": "She is not a pilot; the joke has to land in the placards or it reads as a dashboard.",
+      "raised": [
+        {"from": "raku vessel", "raise": "Yes lifts a lid: the details reveal in staged steps, never all at once."},
+        {"from": "tensegrity column", "raise": "Needles breathe with damped spring motion; nothing snaps."},
+        {"from": "exposure record", "raise": "Every quantity is tabular mono; 7:30 and 1/2 read as instrument values."}
+      ],
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack.webp"
+    },
+    {
+      "id": "challenger-fight-poster",
+      "label": "The Fight Poster",
+      "verdict": "wins",
+      "lineage": "boxing fight poster, two names at a gold VS",
+      "thesis": "JOSE vs HER NAME. Tomorrow night. One night only. The main event is dinner.",
+      "palette": ["#f2b705", "#141210", "#d7261e", "#f6efd9"],
+      "materials": ["arena-gold poster stock, drenched", "heavy slab ink", "letterpress smalls"],
+      "viewport": "The sheet splits at a gold VS: his name fills the top half to the edge, hers the bottom, slab caps at collision scale. Under the mark: TOMORROW NIGHT, the venue, the time in letterpress smalls. The undercard shrinks line by line: appetizers, the wine list, dessert (contested), who pays (decided). Tickets: say yes.",
+      "case": "Universally legible and funny between two people who are marrying; every product fact (names, date, place, time, the ask) has a native slot on the sheet. Wins both axes.",
+      "risk": "The joke only works with real slab caps at full scale; timid type turns it into a wedding-site template.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-fight-poster-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/posters-covers-sleeves-fight-poster.webp"
+    },
+    {
+      "id": "challenger-vertical-feed",
+      "label": "Vertical Feed",
+      "verdict": "competitive",
+      "lineage": "full-bleed vertical video feed surface",
+      "thesis": "Four snaps, one flick apart: Tomorrow. Dinner. With me? Yes.",
+      "palette": ["#000000", "#ffffff", "#ff2d55"],
+      "materials": ["full-bleed motion", "bottom scrim", "white glyph rail"],
+      "viewport": "One word owns the screen; caption low left, heart on the right rail; the next snap is already loaded.",
+      "case": "She holds this form every day, so identification is instant; loses on clarity because the form is anonymous and the details need a fifth snap.",
+      "risk": "Indistinguishable from a story template.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp"
+    },
+    {
+      "id": "challenger-raku",
+      "label": "Raku Smoke Flash",
+      "verdict": "declined",
+      "lineage": "raku firing, crackled glaze from smoke",
+      "thesis": "The invitation as a vessel lifted from the kiln.",
+      "palette": ["#0e0d0c", "#d9d6cf", "#ff6a00"],
+      "materials": ["soot-black clay", "crackle glaze"],
+      "viewport": "An ember-orange bowl in smoke; the lid lifts on tap.",
+      "case": "Beautiful but the ask has no native slot; she would have to guess.",
+      "kept": "Staged reveal, one step at a time.",
+      "risk": "Reads as an art piece.",
+      "hero": "https://impeccable.style/worlds/cards/clay-ceramics-fracture-raku-smoke-flash-hero.webp"
+    },
+    {
+      "id": "challenger-tensegrity",
+      "label": "Tensegrity Column",
+      "verdict": "declined",
+      "lineage": "carbon rods and red cord in tension",
+      "thesis": "Two forces holding each other up.",
+      "palette": ["#d8d6d1", "#151515", "#e0261c"],
+      "materials": ["carbon rods", "red cord"],
+      "viewport": "A column that breathes; force labels on leader lines.",
+      "case": "Lovely metaphor for a couple, zero legibility as an invitation.",
+      "kept": "Damped, physical motion.",
+      "risk": "Needs a caption to explain itself.",
+      "hero": "https://impeccable.style/worlds/cards/kinetic-sculpture-automata-tensegrity-breathing-column-hero.webp"
+    },
+    {
+      "id": "challenger-exposure",
+      "label": "Exposure Record Sheets",
+      "verdict": "declined",
+      "lineage": "darkroom printer's exposure card",
+      "thesis": "Translucent sheets over a zone ramp.",
+      "palette": ["#f3f1ec", "#3a3a3a", "#e6007e"],
+      "materials": ["tracing paper", "backlit zone ramp"],
+      "viewport": "Ruled boxes of seconds under an enlarger glow.",
+      "case": "A working field for a task; the invitation is not one.",
+      "kept": "Quantities in tabular mono.",
+      "risk": "Reads as a tool.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The e-invitation everyone ships: cream, script headline, a soft floral, one rounded Yes button.",
+    "palette": ["#fbf7f0", "#2b2b2b", "#c98c8c", "#7a9a7a"],
+    "materials": ["soft paper texture", "watercolor floral"],
+    "viewport": "Centered card, script 'Will you have dinner with me?', a pink Yes button.",
+    "risk": "Looks like every wedding-site template."
+  },
+  "steer": true
+}

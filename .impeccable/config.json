@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font-size",
+        "value": "1.125rem",
+        "createdAt": "2026-08-28T13:28:34.555Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "0.9rem",
+        "createdAt": "2026-08-28T13:28:34.582Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "1.05rem",
+        "createdAt": "2026-08-28T13:28:34.610Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "2rem",
+        "createdAt": "2026-08-28T13:28:34.638Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "2.2rem",
+        "createdAt": "2026-08-28T13:28:34.666Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "7rem",
+        "createdAt": "2026-08-28T13:28:34.694Z",
+        "reason": "documented in DESIGN.md typography (base, button caps, small detail, signature, desktop label, desktop display); detector ramp lists only the sidecar steps"
+      }
+    ]
+  }
+}

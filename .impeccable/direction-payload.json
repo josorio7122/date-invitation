@@ -1,0 +1,143 @@
+{
+  "title": "Choose the visual world for the invitation",
+  "question": "The roll assigned The Sandwich Board. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Sandwich Board",
+      "kicker": "THE ROLL",
+      "lineage": "hand-lettered chalk A-frame outside a bistro",
+      "thesis": "Tonight's special, written in chalk for one customer. Refuses the cream card with a script headline.",
+      "palette": ["#1c1f1d", "#f4efe3", "#ff8fa3", "#ffd166", "#7fd8be", "#8b5a2b"],
+      "materials": ["slate with chalk dust", "colored chalk", "worn pine frame"],
+      "viewport": "The board fills the phone edge to edge. TONIGHT ONLY across the top in yellow chalk, her name huge in white, 'dinner with me?' underneath, a chalk-drawn box to tick for yes. A chalk hand writes it in as she watches.",
+      "risk": "Reads like a café menu if the lettering is timid or the palette stays white-on-black.",
+      "raised": [
+        {"from": "hand-bent neon", "raise": "The headline draws as one continuous chalk stroke, never fades in."},
+        {"from": "sewing pattern", "raise": "Yes is drawn solid; the no option stays a dashed outline that never fills."},
+        {"from": "cutting bench", "raise": "State is a chalk mark, not a color: a tick in a box, then a wipe and rewrite."},
+        {"from": "timetable slide rack", "raise": "Three chalk faces and no more; rank is color and weight, not a size ladder."},
+        {"from": "TDR sleeve", "raise": "The board owns the whole viewport, no page margins, no card shell."},
+        {"from": "ASCII scene", "raise": "One material for everything: the button, the date, and the time are chalk too."}
+      ],
+      "wireframe": {"cols": 6, "rows": 12, "regions": [
+        {"label": "TONIGHT ONLY banner", "x": 0, "y": 0, "w": 6, "h": 2, "accent": true},
+        {"label": "her name, chalk display", "x": 0, "y": 2, "w": 6, "h": 3},
+        {"label": "dinner with me?", "x": 0, "y": 5, "w": 6, "h": 2},
+        {"label": "[ ] yes  [ ] also yes", "x": 1, "y": 8, "w": 4, "h": 2, "accent": true},
+        {"label": "wood frame foot", "x": 0, "y": 11, "w": 6, "h": 1}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "label": "The Tasting Menu",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "prix-fixe menu card at the table",
+      "thesis": "The evening laid out as courses, and she is the first one.",
+      "palette": ["#101a2b", "#c9a227", "#f6f1e7", "#7a1f2b"],
+      "materials": ["heavy card stock", "foil-stamped rule", "ink"],
+      "viewport": "A tall menu card: 'Menu for two', date on top, courses listed with a dotted leader; the last line is 'Yes' with a price of 'one smile'.",
+      "risk": "The most familiar path; most runs in this category land on a printed card.",
+      "wireframe": {"cols": 6, "rows": 12, "regions": [
+        {"label": "date + rule", "x": 0, "y": 0, "w": 6, "h": 2},
+        {"label": "courses", "x": 0, "y": 2, "w": 6, "h": 7},
+        {"label": "Yes ........ one smile", "x": 0, "y": 9, "w": 6, "h": 2, "accent": true}
+      ]}
+    },
+    {
+      "id": "challenger-neon",
+      "label": "Neon in the Window",
+      "verdict": "competitive",
+      "lineage": "hand-bent neon sign in a restaurant window",
+      "thesis": "One word lit in cobalt glass in a dark room, and it is her name.",
+      "palette": ["#0b0d12", "#2d6bff", "#ff5a3c", "#d9e7ff"],
+      "materials": ["clear glass tube", "gas-discharge glow", "dark room"],
+      "viewport": "Her name in continuous neon script, buzzing on. Below in smaller tube: 'dinner?' Tap the switch to light 'YES'.",
+      "case": "A restaurant window sign is hers to recognize; loses on clarity because the details cannot read as neon.",
+      "risk": "Glow effects tip into the dark-plus-neon default fast.",
+      "hero": "https://impeccable.style/worlds/cards/magnetism-electricity-plasma-hand-bent-neon-circuit-hero.webp"
+    },
+    {
+      "id": "challenger-timetable",
+      "label": "Timetable Slide Rack",
+      "verdict": "declined",
+      "lineage": "1971 pocket airline timetable on a light table",
+      "thesis": "Departure columns at one type size on goldenrod.",
+      "palette": ["#e8b423", "#1b1b1b", "#f4ecd8", "#d43a1e"],
+      "materials": ["goldenrod stock", "tinted glass slides"],
+      "viewport": "A raked rack of slides with one departure row.",
+      "case": "She has no reason to identify with an airline timetable; the invitation would need explaining.",
+      "kept": "One lettering system, rank by weight and color.",
+      "risk": "Reads as a design exercise, not a note from him.",
+      "hero": "https://impeccable.style/worlds/cards/rw-timetable-slide-rack-hero.webp"
+    },
+    {
+      "id": "challenger-tdr",
+      "label": "Info-Noise Sleeve",
+      "verdict": "declined",
+      "lineage": "Designers Republic record sleeve",
+      "thesis": "Hostile brand noise with one shouting word.",
+      "palette": ["#000000", "#ff2fa0", "#ff7a00", "#ffffff"],
+      "materials": ["flat print", "registration marks"],
+      "viewport": "Magenta target grid, her name shouting through hazard glyphs.",
+      "case": "Hostile by design; wrong register for a love note and it hides the ask.",
+      "kept": "Edge-to-edge commitment, no page margins.",
+      "risk": "Cold.",
+      "hero": "https://impeccable.style/worlds/cards/tdr-info-noise-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-sewing",
+      "label": "Sewing Pattern Tissue",
+      "verdict": "declined",
+      "lineage": "home sewing pattern envelope",
+      "thesis": "Dashed cutting lines, one view committed in red.",
+      "palette": ["#e9d8b4", "#1a1a1a", "#c8102e", "#a7c4d2"],
+      "materials": ["manila tissue", "gouache figures"],
+      "viewport": "Envelope front with views A, B, C.",
+      "case": "Only lands if she sews; nothing in the brief says so.",
+      "kept": "The committed choice renders solid, others dashed.",
+      "risk": "Needs a hobby she may not have.",
+      "hero": "https://impeccable.style/worlds/cards/fashion-folded-worlds-sewing-pattern-envelope-hero.webp"
+    },
+    {
+      "id": "challenger-cutting",
+      "label": "Cutting Bench Rail",
+      "verdict": "declined",
+      "lineage": "film editor's select rail",
+      "thesis": "Frames on pins, orange tape flag where you stopped.",
+      "palette": ["#000000", "#ff6a00", "#ffffff"],
+      "materials": ["film grain", "tape"],
+      "viewport": "A perforated strip with three frames.",
+      "case": "An editing bench is a work surface; the invitation is not a task.",
+      "kept": "State as a mark, not a hue.",
+      "risk": "Reads as a tool.",
+      "hero": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp"
+    },
+    {
+      "id": "challenger-ascii",
+      "label": "ASCII Live Scene",
+      "verdict": "declined",
+      "lineage": "typewriter-character render",
+      "thesis": "A scene made of glyph density in green phosphor.",
+      "palette": ["#000000", "#39ff14"],
+      "materials": ["monospace grid", "phosphor"],
+      "viewport": "Her name rendered as a rotating field of characters.",
+      "case": "Terminal aesthetics read as his world, not hers.",
+      "kept": "One material for every element.",
+      "risk": "Hard to read on a phone.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-ascii-live-scene-render-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The e-invitation everyone ships: cream, script headline, a soft floral, one rounded Yes button.",
+    "palette": ["#fbf7f0", "#2b2b2b", "#c98c8c", "#7a9a7a"],
+    "materials": ["soft paper texture", "watercolor floral"],
+    "viewport": "Centered card, script 'Will you have dinner with me?', a pink Yes button.",
+    "risk": "Looks like every wedding-site template."
+  },
+  "steer": true
+}
