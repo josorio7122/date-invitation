@@ -27,7 +27,7 @@ typography:
     lineHeight: 1.15
   title:
     fontFamily: "Cormorant Garamond, Cormorant, EB Garamond, Garamond, Times New Roman, serif"
-    fontSize: "clamp(1.5rem, 6vw, 1.8rem)"
+    fontSize: "clamp(1.35rem, 5.4vw, 1.7rem)"
     fontWeight: 500
     lineHeight: 1.2
   body-lead:
@@ -135,7 +135,7 @@ Loaded locally through `@fontsource`: Cormorant Garamond at 500, 500 italic and 
 - **Display** (Great Vibes 400, `clamp(4.4rem, 20vw, 6.2rem)` mobile, 7rem at 900px+, line-height 1.15): her name only. Balanced wrap, 0.12em side padding so the script swashes are not clipped, and a three-layer blue bloom text-shadow.
 - **Script label** (Great Vibes 400, 1.7rem mobile, 2.2rem at 900px+, line-height 1): the two star names, offset 18px (22px desktop) above or below the star core. The signature under the note is the same face at 2rem.
 - **Headline** (Cormorant 500 italic, `clamp(2.1rem, 8.5vw, 2.6rem)`, line-height 1.15, centered): "It's a date." after Yes. Focusable (`tabIndex=-1`) so focus moves here on reveal.
-- **Title** (Cormorant 500 italic, `clamp(1.5rem, 6vw, 1.8rem)`, line-height 1.2): the question "Will you have dinner with me?".
+- **Title** (Cormorant 500 italic, `clamp(1.35rem, 5.4vw, 1.7rem)`, line-height 1.2): the question "Will you have dinner with me?".
 - **Body lead** (500, `clamp(1.3rem, 5.2vw, 1.55rem)` mobile, 1.7rem at 900px+, line-height 1.35, `blue-100`): the paragraph under her name, with `em` in white for the time. Balanced wrap.
 - **Body** (500, 1.2rem, line-height 1.35): plate values and, in italic at line-height 1.4 in `blue-100`, the note. Secondary detail lines drop to 1.05rem in `blue-100`. Pretty wrap.
 - **Label** (600, 0.8rem, 0.22em tracking, uppercase): plate terms in `blue-300` and links in `blue-100`. The Yes button is the same style at 0.9rem with a matching 0.22em `text-indent` so the tracked word centers.

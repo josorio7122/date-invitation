@@ -54,7 +54,7 @@ export default function App() {
                 </motion.header>
                 <motion.div className="ask-row" variants={rise} initial={reduce ? false : "hidden"} animate="shown" transition={enter(1.4)}>
                   <p id="question" className="question">
-                    Will you have dinner with me?
+                    Would you like to have dinner with me?
                   </p>
                   <button type="button" className="yes" aria-describedby="question" onClick={() => setYes(true)}>
                     Yes
