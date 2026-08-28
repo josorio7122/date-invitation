@@ -50,10 +50,7 @@ export default function App() {
                 <motion.header className="lead" variants={rise} initial={reduce ? false : "hidden"} animate="shown" transition={enter(0.6)}>
                   <h1>{invite.her}</h1>
                   <Flourish />
-                  <p>
-                    {relativeDay(when)} at <em>{clock(when).toLowerCase()}</em>, the sky will look like this. I would like to spend the
-                    evening beneath it with you.
-                  </p>
+                  <p>I would like to spend the evening with you.</p>
                 </motion.header>
                 <motion.div className="ask-row" variants={rise} initial={reduce ? false : "hidden"} animate="shown" transition={enter(1.4)}>
                   <p id="question" className="question">

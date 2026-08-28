@@ -125,6 +125,7 @@ a:hover {
 .star-name {
   position: absolute;
   font-family: var(--font-script);
+  font-weight: 400;
   font-size: 1.7rem;
   line-height: 1;
   color: var(--white);
